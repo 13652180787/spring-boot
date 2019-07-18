@@ -66,7 +66,7 @@ class SampleActuatorUiApplicationPortTests {
 		assertThat(entity.getStatusCode()).isEqualTo(HttpStatus.OK);
 		assertThat(entity.getBody()).contains("\"status\":\"UP\"");
 	}
-
+2
 	private String getPassword() {
 		return "password";
 	}
